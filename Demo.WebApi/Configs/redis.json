@@ -1,0 +1,9 @@
+{
+  "//": "=========== Redis 配置 ===========",
+  "RedisConfig": {
+    "Enabled": true,
+    "RedisConnectionString": "127.0.0.1:6379,defaultDatabase=0,poolsize=50,ssl=false,writeBuffer=10240,prefix=",
+    "RedisSessionConnectionString": "127.0.0.1:6379,defaultDatabase=1,poolsize=50,ssl=false,writeBuffer=10240,prefix=",
+    "RedisPrefixKey": "Demo:SqlSugar:"
+  }
+}

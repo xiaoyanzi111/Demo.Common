@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- 数据模型层：Api 统一返回 / Dto / Entity（Entity 使用 SqlSugar 特性） -->
+
+  <ItemGroup>
+    <PackageReference Include="SqlSugarCore" Version="5.1.4.169" />
+  </ItemGroup>
+
+</Project>

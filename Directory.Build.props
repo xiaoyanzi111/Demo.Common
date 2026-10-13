@@ -1,0 +1,19 @@
+<Project>
+
+  <!--
+    全局统一构建属性（所有子项目自动继承）。
+    如需单个项目覆盖，可在该项目 .csproj 的 PropertyGroup 中重新声明。
+  -->
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591;NU1701;CS0618</NoWarn>
+    <Company>Demo</Company>
+    <Product>Demo Framework</Product>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- 通用工具：Excel 导入导出等 -->
+
+  <ItemGroup>
+    <PackageReference Include="NPOI" Version="2.7.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+</Project>

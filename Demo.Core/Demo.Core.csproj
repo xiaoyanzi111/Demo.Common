@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- 核心层：数据库连接配置（SqlSugar 多库/多租户）、Redis 缓存 -->
+
+  <ItemGroup>
+    <PackageReference Include="CSRedisCore" Version="3.8.1" />
+    <PackageReference Include="SqlSugarCore" Version="5.1.4.169" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Demo.Common\Demo.Common.csproj" />
+    <ProjectReference Include="..\Demo.Extensions\Demo.Extensions.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- 契约与实现层：泛型仓储基类、泛型服务基类、工作单元，以及各业务模块的 Service/IService -->
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Demo.Core\Demo.Core.csproj" />
+    <ProjectReference Include="..\Demo.Extensions\Demo.Extensions.csproj" />
+    <ProjectReference Include="..\Demo.Model\Demo.Model.csproj" />
+    <ProjectReference Include="..\Demo.Utils\Demo.Utils.csproj" />
+  </ItemGroup>
+
+</Project>
